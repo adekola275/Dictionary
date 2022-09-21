@@ -5,9 +5,9 @@ let trans = document.getElementById('trans')
 let meaning =document.getElementById('meaning')
 const all = document.querySelector('#all')
 let show = document.getElementById('show')
-let ori = document.getElementById('ori')
+// let ori = document.getElementById('ori')
 function empty_example(empty){
-    if(empty == ""){
+    if(empty == "undefined"){
        empty = ""
     }else{
    empty = "Example:" + empty
